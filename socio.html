@@ -1,0 +1,64 @@
+<html>
+<head>
+<script>
+var string = 'PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KICAgIHZhciBhZGZseV9pZCA9IDIzNjY1OTg3Ow0KICAgIHZhciBhZGZseV9hZHZlcnQgPSAnaW50JzsNCiAgICB2YXIgZnJlcXVlbmN5X2NhcCA9IDU7DQogICAgdmFyIGZyZXF1ZW5jeV9kZWxheSA9IDU7DQogICAgdmFyIGluaXRfZGVsYXkgPSAyMDsNCiAgICB2YXIgcG9wdW5kZXIgPSB0cnVlOw0KPC9zY3JpcHQ+DQo8c2NyaXB0IHNyYz0iaHR0cHM6Ly9jZG4uYWRmLmx5L2pzL2VudHJ5LmpzIj48L3NjcmlwdD4=';
+var decodedString = atob(string);
+document.write(''+ decodedString +'');
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<title>Socio Comercial</title>
+
+  <link  href="css/style.css" rel="stylesheet" >
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+<div align="right">
+  <br><br>
+<h2><a href=index><img src="img/home.png"></a></h2>
+</div>
+</head>
+<body style="background-color:#ffffff;">
+<div align=left>
+<script>
+var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+var diasSemana = new Array("Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado");
+var f=new Date();
+document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+</script>
+<br><br>
+<label for="start">CALENDARIO</label>
+
+<input type="date" id="start" name="trip-start"
+              min="2020-01-01" max="2030-12-31">
+</div>
+
+<center>
+
+
+<img src="img/logedit.png">
+<h1>Socio Comercial<h1>
+</center>
+<br><br>
+</head>
+
+<div align="center" class="pagination">
+<nav>
+ <ul>
+   <h2><li><a class="first" href="docs/socio/agentformat.pdf">FORMATO AGENTES</a></h2></li>
+<h2><li><a href="https://docs.google.com/presentation/d/1bJF3z0vyyakXYRPJ6TVRhPdwJpzHxpwU/edit?usp=drivesdk&ouid=117154013752246819842&rtpof=true&sd=true">PERSONA CLAVE (ADN)</a></h2></li>
+   <h2><li><a href="docs/socio/magent2024.pdf">MANUAL DE AGENTES 2024</a></h2></li>
+   <h2><li><a href="docs/socio/adn.pdf">TRIPTICO ADN</a></h2></li>
+   <h2><li><a href="docs/socio/mshare.pdf">MARKET SHARE</a></h2></li>
+   <h2><li><a href="docs/socio/lservici.xlsx">LINEAMIENTOS DE SERVICIO</a></h2></li>
+   <h2><li><a href="docs/socio/flash.pdf">FLASH</a></h2></li>
+
+  </ul>
+</div>
+  </nav>
+  <br><br><br><br><br><br>
+  <script type='text/javascript'>
+	document.oncontextmenu = function(){return false}
+</script>
+</body>
+
+
+
+</html>

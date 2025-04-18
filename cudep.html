@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Vida Individual</title>
+
+  <link  href="css/style.css" rel="stylesheet" >
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+<div align="right">
+  <br><br>
+<h2><a href=index><img src="img/home.png"></a></h2>
+</div>
+</head>
+<body style="background-color:#ffffff;">
+<div align=left>
+<script>
+var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+var diasSemana = new Array("Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sábado");
+var f=new Date();
+document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+</script>
+<br><br>
+<label for="start">CALENDARIO</label>
+
+<input type="date" id="start" name="trip-start"
+              min="2020-01-01" max="2030-12-31">
+</div>
+
+<center>
+
+<img src="img/logedit.png">
+<h1>Vida individual/Emision/Cuestionario de Deportes<h1>
+</center>
+<br><br>
+</head>
+
+<div align="center" class="pagination">
+<nav>
+ <ul>
+   <h2><li><a class="first" href=docs/ciclismo.pdf>CUESTIONARIO DE CICLISMO V.3</a></h2></li>
+   <h2><li><a href=docs/embarcaciones.pdf>CUESTIONARIO PARA DEPORTES ACUATICOS EMBARCACIONES DE RECREO V.3</a></h2></li>
+   <h2><li><a href=docs/pesca.pdf>CUESTIONARIO PARA PERSONAS QUE PRACTICAN PESCA V.3</a></h2></li>
+   <h2><li><a  href=docs/delta.pdf>CUESTIONARIO PARA VUELO DELTA V.3</a></h2></li>
+   <h2><li><a href=docs/automovilismo.pdf>CUESTIONARIO PRACTICAS DE AUTOMOVILISMO V.3</a></h2></li>
+   <h2><li><a href=docs/buceo.pdf>CUESTIONARIO PRACTICAS DE BUCEO V.3</a></h2></li>
+   <h2><li><a href=docs/espeleo.pdf>CUESTIONARIO PRACTICAS DE ESPELEOLOGÍA V.3</a></h2></li>
+   <h2><li><a href=docs/motoc.pdf>CUESTIONARIO PRACTICAS DE MOTOCICLISMO V.3</a></h2></li>
+   <h2><li><a href=docs/paraca.pdf>CUESTIONARIO PRACTICAS DE PARACAIDISMO V.3</a></h2></li>
+   <h2><li><a href=docs/generico.pdf>CUESTIONARIO SOBRE DEPORTES GENÉRICOS V.5</a></h2></li>
+  </ul>
+</div>
+  </nav>
+  <br><br><br><br><br><br>
+  <script type='text/javascript'>
+	document.oncontextmenu = function(){return false}
+</script>
+</body>
+
+
+
+</html>

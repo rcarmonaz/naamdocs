@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Gastos Medicos</title>
+
+  <link  href="css/style.css" rel="stylesheet" >
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+<div align="right">
+  <br><br>
+<h2><a href=index><img src="img/home.png"></a></h2>
+</div>
+</head>
+<body style="background-color:#ffffff;">
+<div align=left>
+<script>
+var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+var diasSemana = new Array("Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado");
+var f=new Date();
+document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+</script>
+<br><br>
+<label for="start">CALENDARIO</label>
+
+<input type="date" id="start" name="trip-start"
+              min="2020-01-01" max="2030-12-31">
+</div>
+
+<center>
+
+<img src="img/logedit.png">
+<h1>Gastos Medicos/Emision/Cuestionario Deportes<h1>
+</center>
+<br><br>
+</head>
+
+<div align="center" class="pagination">
+<nav>
+ <ul>
+   <h2><li><a class="first" href=docs/depgmm/depacua.pdf>CUESTIONARIO PARA DEPORTES ACUATICOS EMBARCACIONES DE RECREO V.3</a></h2></li>
+   <h2><li><a href=docs/depgmm/automovilism.pdf>CUESTIONARIO PRACTICAS DE AUTOMOVILISMO V.3</a></h2></li>
+   <h2><li><a href=docs/depgmm/buceo.pdf>CUESTIONARIO PRACTICAS DE BUCEO V.3</a></h2></li>
+   <h2><li><a href=docs/depgmm/caceria.pdf>CUESTIONARIO PRACTICAS DE CACERIA V.3</a></h2></li>
+   <h2><li><a href=docs/depgmm/charreria.pdf>CUESTIONARIO PRACTICAS DE CHARRERIA V.3</a></h2></li>
+   <h2><li><a href=docs/depgmm/equita.pdf>CUESTIONARIO PRACTICAS DE EQUITACION V.3</a></h2></li>
+   <h2><li><a href=docs/depgmm/squiacua.pdf>CUESTIONARIO PRACTICAS DE ESQUI ACUATICO V.3</a></h2></li>
+   <h2><li><a href=docs/depgmm/squinieve.pdf>CUESTIONARIO PRACTICAS DE ESQUI DE NIEVE V.3</a></h2></li>
+   <h2><li><a href=docs/depgmm/alpinismo.pdf>CUESTIONARIO PRACTICAS DE MONTAÑISMO Y ALPINISMO V.3</a></h2></li>
+   <h2><li><a href=docs/depgmm/motociclis.pdf>CUESTIONARIO PRACTICAS DE MOTOCICLISMO V.3</a></h2></li>
+   <h2><li><a href=docs/depgmm/motonau.pdf>CUESTIONARIO PRACTICAS DE MOTONAUTICA V.3</a></h2></li>
+   <h2><li><a href=docs/depgmm/paracaid.pdf>CUESTIONARIO PRACTICAS DE PARACAIDISMO V.3</a></h2></li>
+   <h2><li><a href=docs/depgmm/pesca.pdf>CUESTIONARIO PRACTICAS DE PESCA V.3</a></h2></li>
+   <h2><li><a href=docs/depgmm/tauro.pdf>CUESTIONARIO PRÁCTICAS DE TAUROMAQUIA V.3</a></h2></li>
+</div>
+  </nav>
+  <br><br><br><br><br><br>
+  <script type='text/javascript'>
+	document.oncontextmenu = function(){return false}
+</script>
+</body>
+
+
+
+</html>
